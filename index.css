@@ -66,7 +66,7 @@ body {
     align-items: center; /* contingut centrat en la direcció transversal
     */
     display:flex;
-    background-color: #ffffff; /* color de fons */
+    background-color: rgb (130, 187, 206); /* color de fons */
     font-size: 3vmax;
     
 }
@@ -85,3 +85,20 @@ body {
     font-size: 5vmax;
     cursor: pointer; /* en ordinadors, indica que s'hi pot fer clic */
 }
+@media (orientation: landscape) {
+    body {
+    
+    flex-direction: row; /* sobreescriu la declaració flex-direction:
+    
+    column; */
+    
+    flex-flow: row-reverse; /* disposició de dreta a esquerra, per
+    
+    mostrar el menú a l'esquerra */
+    }
+    #menu {
+    flex-direction: column;
+    width: 8vmax;
+    height: auto; /* sobreescriu la declaració height: 8vmax; */
+    }
+    }
