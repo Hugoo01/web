@@ -213,4 +213,7 @@ body {
         height: 70vmin;
         }
         }
+    #map { max-height: max-content;
+        width: 80%;
     }
+}
