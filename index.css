@@ -71,6 +71,18 @@ body {
     font-size: 3vmax;
     
 }
+#seccio_foto { 
+    display: flex;
+    flex-direction: column; /* els elements es disposen de dalt cap abaix*/
+    justify-content: center; /* contingut centrat en la direcció de
+    disposició */
+    align-items: center; /* contingut centrat en la direcció transversal
+    */
+    display:flex;
+    background-color: rgb (130, 187, 206); /* color de fons */
+    font-size: 3vmax;
+    
+}
 
 
 #menu {
@@ -115,10 +127,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     }
     #icona_camera {
     font-size: 40vmin;
     color: #950E17;
+    flex-direction: column;
     }
     #foto {
     max-width: 60vmin; /* dimensions màximes per a la prveisualització de
@@ -141,9 +155,6 @@ body {
     position: absolute;
     width: 0;
     opacity: 0;
-    }
-    #canvas, #desa {
-    display: none;
     }
     #div_gran {
     display: none;
@@ -213,4 +224,5 @@ body {
         height: 70vmin;
         }
         }
+
 }
