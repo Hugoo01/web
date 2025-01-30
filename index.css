@@ -83,6 +83,18 @@ body {
     font-size: 3vmax;
     
 }
+#seccio_galeria { 
+    display: flex;
+    flex-direction: column; /* els elements es disposen de dalt cap abaix*/
+    justify-content: center; /* contingut centrat en la direcció de
+    disposició */
+    align-items: center; /* contingut centrat en la direcció transversal
+    */
+    display:flex;
+    background-color: rgb (130, 187, 206); /* color de fons */
+    font-size: 3vmax;
+    
+}
 
 
 #menu {
